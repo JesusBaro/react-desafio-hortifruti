@@ -1,8 +1,125 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
-body{
+
+body {
     background-color: orangered;
+}
+
+.Header {
+    width: 50vw;
+    height: 10vw;
+    padding: 1rem 0rem 1rem 1rem ;
+    text-align: center;
+    
+}
+
+h1 {
+    text-transform:uppercase ;
+    font-size: 3.5rem;
+    letter-spacing: 0.5em;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 0rem 0rem 0rem 4rem ;
+}
+
+.ProductContainer {
+    height: 65vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.TittleProductContainer {
+    font-size: 2.6rem;
+   padding-top: 1rem;
+   padding-left: 5rem;
+    font-weight: 300;
+
+}
+
+.imagensDosLegumes {
+    width: 20vw;
+    transition: ease-in 0.2s;
+}
+
+.imagensDosLegumes:hover {
+    width: 23vw;
+
+}
+
+.FruitSection {
+    width: 50vw;
+    height: 50vh;
+    margin-left: -2rem;
+    margin-top: -6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.FruitBox {
+    width: 10vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.4rem;
+
+}
+#ShopCarSection{
+    background-color: #F7E0CE;
+    border-radius: 7vw;
+    width: 23vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0.4rem 0.1rem 0.4rem 0.1rem rgb(87, 40, 1);
+
+}
+.CarrinhoBox{
+    background-color: #D3C5BB;
+    border-radius: 3.5vw;
+    width: 18vw;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+
+}
+.Paragraph{
+font-size: 0.9rem;
+    width: 13vw;
+    color: black;
+    text-align: center;
+
+}
+.CarrinhoButton{
+    background-color: #D3C5BB;
+    border-radius: 3.5vw;
+    width: 12vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.imagemBotao{
+    width: 2vw;
+    transition: ease-in 0.2s;
+}
+.imagemBotao:hover{
+    width: 2.5vw;
 }
